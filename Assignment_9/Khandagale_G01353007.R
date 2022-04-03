@@ -5,18 +5,15 @@
 ###Students Name: Deepti Vijay Khandagale
 ###GNumber: G01353007
 
+setwd(getwd())
 
-
-getwd()
-setwd("~/Documents/DiptiFolder/GMU_Spring_2022/Deepti_Github_Repo/AIT580/R_assignment_9")
 library(dplyr)
-library(ggplot2)
 library(gplots)
 rm(list=ls())
 
 data <- read.csv('EmployeeAttrition.csv')
-data
-str(data)
+print(data)
+print(str(data))
 
 # Your hypothesis testings here...
 #Q.1: If the MonthlyIncome of Males is greater than Females
