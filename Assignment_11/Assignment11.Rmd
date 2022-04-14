@@ -1,0 +1,60 @@
+---
+title: "Assignment_11"
+author: "Deepti Vijay Khandagale"
+date: "4/13/2022"
+output: pdf_document
+---
+
+```{r, echo=TRUE}
+```
+**Search online for any news media or article containing some graphics that violate good
+visualization practice (FYI, some good sources for news with data visualization would be
+NYTimes, Washington Post, the Guardian, or ProPublica. These news websites provide
+particular news pages that make use of data visualization).**
+
+**a. Find one example of distortion or unnecessary detail in a visualization (paste the URL of
+the news page), explain the problem and suggest a solution (5 points)**
+
+=> **[Link to the graph](https://www.nytimes.com/interactive/2018/12/24/climate/how-electricity-generation-changed-in-your-state.html)**
+
+Example: The distribution of Electricity Generation from 2001-2017
+
+Problems:
+
+1. *Visually unappealing* : The graph looks like an area line graph and visuals are overlapping
+2. *Not comparable* : All the sources of electricity described in the graph are not comparable in the given trend
+3. *Improper Labels* : The graph are not properly label, it is hard to compare the distribution in between the period of 2001 to 2017
+4. *Complex appearance* : The graph lacks the focus on the details and it is hard to comprehend the graph
+
+Suggestions:
+
+1. *Visually appealing* : It is good option to use a line plot graph with the lines of the sources of electricity as it will be clearly distinguishable
+2. *Comparable* : With the line plot, one can compare the distribution of the sources in the given period
+3. *Proper labels* : The correct labels in the axis will help the user to interpret the graph easily for each period
+4. *Simple Appearance* : Visually appearance is simple and easy to comprehend
+
+**b. Find one example of misleading interpretation (paste the URL of the news page), explain
+the problem and suggest a solution (5 points)**
+
+=> **[Link to the graph](https://www.economist.com/graphic-detail/2020/09/29/the-world-marks-1m-deaths-from-covid-19)**
+
+
+Example: Global COVID cases and death
+
+Problems:
+
+1. *Logarithm scale* : The graph uses logarith scales which can gibve misleading interpretation for the user
+2. *Inappropriate labels* : The graph shows the abbreviated labels and the numbers on the Y-axis which is hard to comprehend
+3. *Misleading information* : It seems like in 2020 the death and the cases are stabilized but in reality it is increasing.
+
+Suggestions:
+
+1. *Using right scale* : For a continuous type of data, it is recommended to use the line graph with linear scale for the graph
+2. *Proper labels* : The correct labels and defining the abbreviations in the axis will help the user to read the graph easily (example using 100,000 as 10*10^3^)
+4. *Clear information* : The line graph in linear scale would be comprehensive i.e able to provide the actual and clear information to the reader
+
+
+
+
+
+
