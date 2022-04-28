@@ -21,7 +21,8 @@ data <- read.csv('EmployeeAttrition.csv')
 str(data)
 
 
-#### 1. Regression ####
+########################### 1. Regression ######################################
+
 # a. Show the scatter plot with relationship curve between TotalWorkingYears and MonthlyIncome. 
 # Briefly explain your observation in the plot (Hint: Use scatter.smooth() function in R) (5 points)
 
@@ -64,13 +65,23 @@ print(cor3 <- cor(data$Age, data$DistanceFromHome))
 # model. Use print() to show coefficients. Use summary() to show more details) (15 points)
 
 print(lm.work <- lm(MonthlyIncome ~ TotalWorkingYears, data=data))
+print(lm.work$coefficients)
+
+# For the above output, we can see that the relationship is developed as Monthly income as a function
+# of Total Working years with intercept as 1227.9 and coefficient of total working years as 467.65.
+# The relationship can be written as:
+# Monthly Income = 1227.9 + 467.7 * (Total Working Years)
 
 print(summary(lm.work))
 
-# The p-value is less than 0.05, which means that we reject the null hypothesis i.e the MonthlyIncome
-# is dependent on the TotalWorkingYears.
+# From the above output, it can be said that the model is statistically significant because:
+# 1. The p-value is less than the statistical significance level (i.e 0.05). In this case, we reject 
+# the null hypothesis which means, there is relationship between MonthlyIncome and TotalWorkingYears.
+# 2. Higher the adjuested R-squared and F-statistic, better the model is fit for data.
 
-#### 2. Clustering ####
+
+############################# 2. Clustering #################################
+
 # a. Use K-means Clustering algorithm to find groups between HourlyRate and
 # TotalWorkingYears. Use number of clusters as 3. Explain how each group is different
 # from another in terms of employees representing those groups. (10 points)
