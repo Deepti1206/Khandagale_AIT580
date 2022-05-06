@@ -135,7 +135,7 @@ cluster5 <- ggplot() + ggtitle("Total Working Hours v/s Hourly Rate with k=5") +
              color = "red", size = 4)
 print(cluster5)
 
-ggsave(cluster5.png)
+ggsave("cluster5.png")
 
 # In the above plot with clusters as 5, it can be observed that :
 # 1. The 3 clusters in the previous plot are splitted to 5 clusters based on the hourly rate 
