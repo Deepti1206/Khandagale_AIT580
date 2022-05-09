@@ -23,7 +23,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   City health services impact on public health in US" provides the analysis of the influence of city health services on the public health across the United States.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://deepti1206.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: diptikhandagale
 github_username:  deepti1206, Satwika05
 
