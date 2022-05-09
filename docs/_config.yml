@@ -28,7 +28,7 @@ twitter_username: diptikhandagale
 github_username:  deepti1206, Satwika05
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
