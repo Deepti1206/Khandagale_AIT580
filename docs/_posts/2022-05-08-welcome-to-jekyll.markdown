@@ -8,6 +8,8 @@ categories: jekyll update
 Health is the most important aspect of life. In today's world, with unhealthy food habits and lifestyle foods, the chance of weight gain, heart diseases and Blood Pressure  related problems are increasing. On the other hand, medical treatments have become expensive. As said, `Prevention is better than cure`, the health services around the United States have taken up a project to focus on public health and prevent the risk of disease and health issues. One of the interesting projects is "PLACES" which works on the analysis of risks and diseases and habits common across the population.
 
 ![PLACES logo](/images/500-cities-logo.png "PLACES logo"){:class="img-responsive"}
+<img src=“/images/500-cities-logo.png">
+
 
 # BACKGROUND
 `PLACES` the expansion of The 500 Cities Project, is a partnership project between the Center for Disease Control (CDC) and the Robert Wood Johnson. It focuses on providing towards model-based analysis of health estimates for local areas across the United States. For the first time, it supplied data for cities and census tracts, many of which covered multiple counties across the United States. These data can be filtered (by city and/or tracts, as well as by measure) and downloaded by end-users for use in different analyses.
